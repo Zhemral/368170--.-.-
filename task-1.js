@@ -13,9 +13,4 @@ function isLuckyTicket(ticketNumber) {
     } 
     return sum1 === sum2;
 }
-// Примеры использования
-console.log(isLuckyTicket('385916')); // true
-console.log(isLuckyTicket('231002')); // false
-console.log(isLuckyTicket('1222'));   // false
-console.log(isLuckyTicket('054702')); // true
-console.log(isLuckyTicket('00'));     // true
+
